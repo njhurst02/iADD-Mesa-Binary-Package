@@ -2,12 +2,12 @@
 
 ## Background
 
-Module for reading out and plotting data from MESA binary simulations, designed in tandem with MESA Binary from [iadd.astro.illinois.edu](https://iadd.astro.illinois.edu/). Users are intended to run MESA binary simulations and then create plots as desired with this module. Please see [this page](https://iadd.astro.illinois.edu/mesa-binary-background) for more information and the MESA binary simulator.
+Package for reading out and plotting data from MESA binary simulations, designed in tandem with MESA Binary from [iadd.astro.illinois.edu](https://iadd.astro.illinois.edu/). Users are intended to run MESA binary simulations and then create plots as desired with this Package. Please see [this page](https://iadd.astro.illinois.edu/mesa-binary-background) for more information and the MESA binary simulator.
 
 Most of the functions produce animations (at the time of writing, only the kippenhahn plot is a static plot). 
 Users can select the desired FPS of the movie (must be an int) and for specific plots (like abundances), threshold values must be specified (also must be an int). Movies are designed to be formatted such that they are accessible to all; colorblind friendly, large font sizes, etc. However, if you wish to see anything added, please contact us at the information found at the bottom of this page. 
 
-For installation instructions, please see [this page](https://iadd.astro.illinois.edu/mesa-binary-python-module). 
+For installation instructions, please see [this page](https://iadd.astro.illinois.edu/mesa-binary-python-Package). 
 
 
 ## Functions
