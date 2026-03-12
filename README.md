@@ -4,11 +4,25 @@
 
 Package for reading out and plotting data from MESA binary simulations, designed in tandem with MESA Binary from [iadd.astro.illinois.edu](https://iadd.astro.illinois.edu/). Users are intended to run MESA binary simulations and then create plots as desired with this Package. Please see [this page](https://iadd.astro.illinois.edu/mesa-binary-background) for more information and the MESA binary simulator.
 
-Most of the functions produce animations (at the time of writing, only the kippenhahn plot is a static plot). 
-Users can select the desired FPS of the movie (must be an int) and for specific plots (like abundances), threshold values must be specified (also must be an int). Movies are designed to be formatted such that they are accessible to all; colorblind friendly, large font sizes, etc. However, if you wish to see anything added, please contact us at the information found at the bottom of this page. 
+Most of the functions produce animations (at the time of writing, only the kippenhahn plot is a static plot), giving users the ability to watch binary stellar evolution through multiple properties.
+Users can select the desired FPS of the movie and for specific plots (like abundances), threshold values must be specified. Movies are designed to be formatted such that they are accessible to all; colorblind friendly, large font sizes, etc. However, if you wish to see anything added, please contact us at the information found at the bottom of this page. 
 
-For installation instructions, please see [this page](https://iadd.astro.illinois.edu/mesa-binary-python-Package). 
+## Installation & Usage
 
+To install this module, use pip:
+
+```
+pip install iadd-mesa-binary
+```
+
+## Additional Dependencies
+
+Users will need to have the following installed for some or all of the plots. Clicking on the hyperlink takes you to their installation pages, most of which are simply a pip install command.
+
+* [mesaPlot](https://github.com/rjfarmer/mesaplot)
+* [mesa_reader](https://github.com/wmwolf/py_mesa_reader)
+* [TULIPS](https://astro-tulips.readthedocs.io/en/latest/installation.html) (needed for abundances plot)
+* [Latex](https://www.tug.org/texlive/acquire-netinstall.html) (needed for text formatting, optional)
 
 ## Functions
 
