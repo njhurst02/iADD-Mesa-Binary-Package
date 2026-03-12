@@ -15,6 +15,8 @@ To install this module, use pip:
 pip install iadd-mesa-binary
 ```
 
+iADD MESA Binary does not provide general methods for reading out data. If we recieve requests to do so, this may change. Until then, please check out the methods in TULIPS or mesa_reader (MesaData). 
+
 ## Additional Dependencies
 
 Users will need to have the following installed for some or all of the plots. Clicking on the hyperlink takes you to their installation pages, most of which are simply a pip install command.
