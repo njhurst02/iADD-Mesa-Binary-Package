@@ -51,7 +51,7 @@ plot_Roche_Lobe(logs1, logs2, binary_history, fps, PM):
 ```
 plot_Hertzsprung_Russel(logs1, logs2, binary_history, fps, observers, PM):
 ```
-Observers is a boolean; set to True, it will slightly modify the HR diagram to include spectral classes and a gradiented colorbar at the bottom.
+Observers is a boolean; set to True, it will slightly modify the HR diagram to include spectral classes and a gradiented colorbar at the bottom. Because this has to be generated for every frame, making an observers HR diagram can take a few minutes. 
 
 ```
 plot_Abundances(logs1, logs2, fps, threshold, PM):
