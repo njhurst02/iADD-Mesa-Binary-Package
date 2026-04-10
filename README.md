@@ -71,9 +71,9 @@ Given a parameter, returns data. If the requested data is in a history or binary
 
 ## Personal Use
 
-If you wish to use this package for simulations not run with MESA_binary, the simplest way to do so is to ensure that: the logs for star 1 are called binary_logs1, the logs for star 2 are called binary_logs2, and the binary history is called binary_history.data. The get_Data function is only programmed to work with the possible outputs
+If you wish to use this package for simulations not run with MESA_binary, the simplest way to do so is to ensure that: the logs for star 1 are called binary_logs1, the logs for star 2 are called binary_logs2, and the binary history is called binary_history.data. The get_Data function is only programmed to work with the possible outputs found in MESA but could be easily modified. If there are requests for more flexiblity with the data reading, please contact me (information below).
 
-Given the source code, the methods used here could easily be modified for single star evolution. If you wish for that to be a feature by default, please contact me (information below). 
+Given the source code, the methods used here could easily be modified for single star evolution. If you wish for that to be a feature by default, please contact me (again, information below). 
 
 To streamline the process of aligning timesteps, this code assumes that history_interval and profile_interval are equal for star 1, star 2, and the binary data. On iADD's MESA Binary, this is done by default. If you want to use this code for simulations run on your own machine, make sure history_interval and profile_interval are equal for both stars and the binary data. 
 
