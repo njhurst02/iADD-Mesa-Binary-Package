@@ -28,7 +28,7 @@ Users will need to have the following installed for some or all of the plots. Cl
 
 ## Functions
 
-Behind all of these functions are auxillary helper functions not listed here. They are however included in the download above, if you desire to look at them.
+Behind all of these functions are auxiliary helper functions not listed here. They are however included in the download above, if you desire to look at them.
 
 fps is the desired frames per second of the generated movie. Generally, 8-16 fps makes for good movies. Must be an int.
 PM is a switch for point mass evolution. True means, where applicable, only plot the evolution of the donor. Must be a boolean.
@@ -52,7 +52,7 @@ Observers is a boolean; set to True, it will slightly modify the HR diagram to i
 ```
 plot_Abundances(fps, threshold, PM):
 ```
-If an element is below the given treshold value, it is removed from the plot. 0.001 is typically very reasonable. Must be given as an int. 
+If an element is below the given threshold value, it is removed from the plot. 0.001 is typically very reasonable. Must be given as an int. 
 
 ```
 plot_Kippenhahn(PM):
@@ -62,7 +62,7 @@ Unlike the rest of the above functions, plot_Kippenhahn produces a picture, not 
 ```
 get_Binary_Data(PM):
 ```
-Returns basic stellar paramaters with flexibility for point mass evolution. If PM == False, get_Binary_Data returns (Age, a, M1, M2, Total_M, R1, R2, T1, T2, Lum1, Lum2, period) and if PM == True, get_Binary_Data returns (Age, a, M1, M2, Total_M, R1, T1, Lum1, period). 
+Returns basic stellar parameters with flexibility for point mass evolution. If PM == False, get_Binary_Data returns (Age, a, M1, M2, Total_M, R1, R2, T1, T2, Lum1, Lum2, period) and if PM == True, get_Binary_Data returns (Age, a, M1, M2, Total_M, R1, T1, Lum1, period). 
 
 ```
 get_Data(parameter):
@@ -71,7 +71,7 @@ Given a parameter, returns data. If the requested data is in a history or binary
 
 ## Personal Use
 
-If you wish to use this package for simulations not run with MESA_binary, the simplest way to do so is to ensure that: the logs for star 1 are called binary_logs1, the logs for star 2 are called binary_logs2, and the binary history is called binary_history.data. The get_Data function is only programmed to work with the possible outputs found in MESA but could be easily modified. If there are requests for more flexiblity with the data reading, please contact me (information below).
+If you wish to use this package for simulations not run with MESA_binary, the simplest way to do so is to ensure that: the logs for star 1 are called binary_logs1, the logs for star 2 are called binary_logs2, and the binary history is called binary_history.data. The get_Data function is only programmed to work with the possible outputs found in MESA but could be easily modified. If there are requests for more flexibility with the data reading, please contact me (information below).
 
 Given the source code, the methods used here could easily be modified for single star evolution. If you wish for that to be a feature by default, please contact me (again, information below). 
 
