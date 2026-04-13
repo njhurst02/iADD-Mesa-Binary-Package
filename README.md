@@ -33,7 +33,7 @@ Behind all of these functions are auxiliary helper functions not listed here. Th
 fps is the desired frames per second of the generated movie. Generally, 8-16 fps makes for good movies. Must be an int.
 PM is a switch for point mass evolution. True means, where applicable, only plot the evolution of the donor. Must be a boolean.
 
-Modeling the system with a point mass companion results in some strange behavior. MESA treats them as a point mass with mass M and records no other properties, like radius or luminosity. It is thus impossible to plot certain graphs normally or at all. In the Roche Lobe geometry plot, the companion star will not display as the plotted circle has 0 radius. I've just set the value as 0 wherever relevant to avoid unnecessarily reading out blank data. The abundances and kippenhahn plots will not work at all for the companion but will behave as normal for the donor. The mass transfer and hertzsprung russel plots will function as normal, just without the companion star. 
+Modeling the system with a point mass companion results in some strange behavior. MESA treats them as a point mass with mass M and records no other properties, like radius or luminosity. It is thus impossible to plot certain graphs normally or at all. In the Roche Lobe geometry plot, the companion star will not display as the plotted circle has 0 radius. Purely for visualization, the companion star will be designated with an 'x'. The abundances and kippenhahn plots will not work at all for the companion but will behave as normal for the donor. The mass transfer and hertzsprung russel plots will function as normal, just without the companion star. 
 
 Additonally, when plotting as a point mass (PM=True), the binary_logs2 file is not used. 
 ```
@@ -43,6 +43,7 @@ plot_Mass_Transfer(fps, PM):
 ```
 plot_Roche_Lobe(fps, PM):
 ```
+If PM is turned on, the companion star will be displayed 
 
 ```
 plot_Hertzsprung_Russel(fps, observers, PM):
