@@ -1,4 +1,4 @@
-# iADD MESA Binary (WIP)
+# iADD MESA Binary
 
 ## Background
 
