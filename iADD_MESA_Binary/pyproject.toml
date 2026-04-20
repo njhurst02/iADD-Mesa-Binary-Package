@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iADD-MESA-Binary"
+version = "0.3.2"
+authors = [
+    {name="Nicholas Hurst", email="njhurst2@illinois.edu"}
+]
+description = "Library for reading and plotting data from iADD's MESA Binary tool"
+readme = "README.txt"
+license = { file = "LICENSE.txt" }
+requires-python = ">=3.8"
+
+dependencies = [
+    "numpy",
+    "mesaPlot",
+    "matplotlib",
+    "PyAstronomy",
+    "astro-tulips",
+    "scipy",
+    "moviepy",
+    "mesa-reader",
+]
