@@ -44,7 +44,7 @@ plot_Mass_Transfer(dir, fps, PM):
 ```
 plot_Roche_Lobe(dir, fps, PM):
 ```
-If PM is turned on, the companion star will be displayed 
+If PM is turned on, the companion star will be displayed as an 'x' where the center of the star would be. There also exists a niche case in which the mass ratio is too large, causing the contour lines to overlap. This causes an error in the 
 
 ```
 plot_Hertzsprung_Russel(dir, fps, observers, PM):
