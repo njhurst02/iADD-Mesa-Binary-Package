@@ -15,6 +15,11 @@ To install this module, use pip:
 pip install iadd-mesa-binary
 ```
 
+To update this module, use pip:
+```
+pip install iadd-mesa-binary --upgrade
+```
+
 iADD MESA Binary does not currently provide general methods for reading out data. This may change in the future. Until then, please check out the methods in TULIPS or mesa_reader (MesaData). These packages are designed for single star data but with some creativity, they can work for data from binaries. 
 
 ## Additional Dependencies
