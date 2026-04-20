@@ -81,7 +81,7 @@ get_Data(dir, parameter):
 Given a parameter, returns data. If the requested data is in a history or binary_history file, data will be returned as a numpy array. If the requested data is in a profile file, user will be asked if they want data from a specific profile or all profiles. For one specific profile, data will be returned as a numpy array. For all profiles, data will be returned as a list of lists (due to the varying length of data from profiles).
 
 ```
-locate_Time(dir, time):
+get_Time(dir, time):
 ```
 Given a time (as a string, for example '10 Myr'), report back the: 1) the nearest time that a profile was recorded for 2) the index of that profile and 3) the profile itself, as a MesaData object. Returns (nearest_time, index, profile). Once the MesaData object is returned, can get any desired data by calling data = profile.data('desired_data'). 
 
