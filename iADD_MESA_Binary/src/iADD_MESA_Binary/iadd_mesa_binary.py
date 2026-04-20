@@ -1245,9 +1245,9 @@ def get_energy_gen(dir, logs, index):
     #If you wish to add more reaction networks, follow the methods below. Commented code left as an example. 
     pp = profile.data('pp')
     cno = profile.data('cno')
-    tri_alpha = profile.data('tri_alpha')
+    #tri_alpha = profile.data('tri_alpha')
     #x = profile.data('x')
-    energy = pp + cno + tri_alpha
+    energy = pp + cno
     #energy = pp + cno + tri_alpha + x
     energy_gen = []
     
