@@ -12,6 +12,6 @@ from .iadd_mesa_binary import (
 	get_Data,
 )
 
-__version__ = "0.3.1"
+__version__ = "0.3.2"
 __author__ = "Nicholas Hurst"
 __email__ = "njhurst2@illinois.edu"
