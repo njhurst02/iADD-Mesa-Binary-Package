@@ -918,7 +918,7 @@ def plot_RL(ax, lpoints, lpot, p, R1, R2, a, Age, ext_vect, q, colors1, colors2)
     ax.add_artist(plt.Circle((0.5, 0), min(R2 / a, r2eff), color=colors2))
     
     #Simulation age label
-    ax.text(0.015, 0.98, Age, transform=ax.transAxes,
+    ax.text(0.015, 0.98, Label_Star_Age(Age), transform=ax.transAxes,
                fontsize=fontsize, verticalalignment='top',
                bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.5), color='white')
                
