@@ -377,7 +377,7 @@ def reverse_Label_Star_age(input_age):
         raise ValueError(f"Could not convert '{input_age}'. Check format (yr, Myr, Gyr).")
     return int(val)
 
-def locate_Time(dir, time):
+def get_Time(dir, time):
     print("Star 1 or 2 (1/2)?")
     which_star = input()
     if which_star == '1' or which_star == '2':
