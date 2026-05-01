@@ -1,0 +1,8 @@
+numpy
+mesaPlot
+matplotlib
+PyAstronomy
+astro-tulips
+scipy
+moviepy
+mesa-reader
