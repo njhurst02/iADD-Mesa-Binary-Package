@@ -29,7 +29,7 @@ Users will need to have the following installed for some or all of the plots. Cl
 * [mesaPlot](https://github.com/rjfarmer/mesaplot)
 * [mesa_reader](https://github.com/wmwolf/py_mesa_reader)
 * [TULIPS](https://astro-tulips.readthedocs.io/en/latest/installation.html) (needed for abundances plot)
-* [Latex](https://www.tug.org/texlive/acquire-netinstall.html) (needed for text formatting, optional, not a pip install)
+* [Latex](https://www.tug.org/texlive/acquire-netinstall.html) (needed for text formatting, optional, pylatex can be installed with pip)
 
 ## Functions
 
