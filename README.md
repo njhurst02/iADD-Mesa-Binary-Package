@@ -41,7 +41,7 @@ PM is a switch for point mass evolution. True means, where applicable, only plot
 
 Modeling the system with a point mass companion results in some strange behavior. MESA treats them as a point mass with mass M and records no other properties, like radius or luminosity. It is thus impossible to plot certain graphs normally or at all. In the Roche Lobe geometry plot, the companion star will not display as the plotted circle has 0 radius. Purely for visualization, the companion star will be designated with an 'x'. The abundances and kippenhahn plots will not work at all for the companion but will behave as normal for the donor. The mass transfer, hertzsprung russel, and equation of state plots will function as normal, just without the companion star. 
 
-Additonally, when plotting as a point mass (PM=True), the binary_logs2 file is not used. 
+Additonally, when plotting as a point mass (PM=True), the binary_logs_2 file is not used. 
 ```
 plot_Mass_Transfer(dir, fps, PM):
 ```
@@ -87,7 +87,7 @@ Given a time (as a string, for example '10 Myr'), report back the: 1) the neares
 
 ## Personal Use
 
-If you wish to use this package for simulations not run with MESA_binary, the simplest way to do so is to ensure that: the logs for star 1 are called binary_logs1, the logs for star 2 are called binary_logs2, and the binary history is called binary_history.data. Many of the methods in this package are programmed to work with the outputs found in MESA_Binary but could be easily modified. If there are requests for more flexibility with the data reading, please contact me (information below).
+If you wish to use this package for simulations not run with MESA_binary, the simplest way to do so is to ensure that: the logs for star 1 are called binary_logs_1, the logs for star 2 are called binary_logs_2, and the binary history is called binary_history.data. Many of the methods in this package are programmed to work with the outputs found in MESA_Binary but could be easily modified. If there are requests for more flexibility with the data reading, please contact me (information below).
 
 Given the source code, the methods used here could easily be modified for single star evolution. If you wish for that to be a feature by default, please contact me (again, information below). 
 
