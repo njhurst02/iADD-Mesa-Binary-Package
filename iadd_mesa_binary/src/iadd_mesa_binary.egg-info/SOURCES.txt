@@ -1,0 +1,10 @@
+LICENSE.txt
+README.txt
+pyproject.toml
+src/iadd_mesa_binary/__init__.py
+src/iadd_mesa_binary/iadd_mesa_binary.py
+src/iadd_mesa_binary.egg-info/PKG-INFO
+src/iadd_mesa_binary.egg-info/SOURCES.txt
+src/iadd_mesa_binary.egg-info/dependency_links.txt
+src/iadd_mesa_binary.egg-info/requires.txt
+src/iadd_mesa_binary.egg-info/top_level.txt
